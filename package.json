@@ -1,0 +1,19 @@
+{
+  "name": "express-square-node",
+  "version": "1.0.0",
+  "description": "Simple payments infrastructure scaffolding.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Ngo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.5",
+    "square-connect": "^4.20200826.3"
+  }
+}
